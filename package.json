@@ -1,13 +1,13 @@
 {
   "name": "svgr-cli-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dumb shortcut to convert .svg files to .tsx typed react components as suggested in the svgr documentation.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lucasriondel/svgr-cli-typescript.git"
   },
   "bin": {
-    "svgr-cli-typescript": "./bin/svgr-cli-typescript"
+    "svgr-cli-typescript": "cli.js.cmd"
   },
   "keywords": [
     "svgr",
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/lucasriondel/svgr-cli-typescript/issues"
   },
-  "homepage": "https://github.com/lucasriondel/svgr-cli-typescript#readme"
+  "homepage": "https://github.com/lucasriondel/svgr-cli-typescript#readme",
+  "dependencies": {}
 }
